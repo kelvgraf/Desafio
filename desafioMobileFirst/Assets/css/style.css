@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-style: none;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  margin-left: 20px;
+}
+@media (min-width: 769px) {
+  .menu-icon {
+    display: none;   
+  }
+}
+
+.menu-list {
+  display: none;
+}
+@media (min-width: 769px) {
+  .menu-list {
+    width: 55vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    list-style: none;  
+  }
+}
+
+
+.icon-bolsa{
+  width: 20px;
+  margin-right: 20px;
+}
+
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.wrapper-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100vw;
+  height: 130vh;
+}
+@media (min-width: 769px) {
+  .wrapper-product {
+    width: 80vw;
+    justify-content: flex-start;   
+  }
+}
+
+.product-sales {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  .product-sales {
+    height: 25vh;  
+  }
+}
+
+.product-title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #11143d;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+strong {
+  font-size: 2.25rem;
+}
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100vw;
+  height: 130vh;
+}
+@media (min-width: 769px) {
+  .wrapper-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 70vh;
+  }
+}
+.product-container1 {
+  width: 80vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #feefce;
+  border-radius: 0 10px 12px 0;
+}
+@media (min-width: 769px) {
+  .product-container1{
+    width: 40vw;
+    border-radius: 15px;
+    align-self: unset;
+  }
+}
+
+.product-img {
+  width: 150px;
+}
+
+.product-item {
+  font-size: 2.15rem;
+  color: #11143d;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.line-chair {
+  width: 50px;
+  height: 5px;
+  margin: 10px 0 10px 0;
+  background-color: #fccb25;
+}
+
+.product-amount {
+  font-size: 1.15rem;
+  color: #888184;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.product-container2 {
+  width: 80vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+  align-items: center;
+  background-color: #b7ebee;
+  border-radius: 15px 0 0 15px;
+}
+@media (min-width: 769px) {
+  .product-container2{
+    width: 40vw;
+    border-radius: 15px;
+    align-self: unset;
+  }
+}
+
+.product-img1 {
+  width: 200px;
+}
+
+.product-box2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-sofas {
+  width: 5px;
+  height: 50px;
+  margin: 0 10px 0 10px;
+  background-color: #43a8ac;
+}
+
+.product-container3 {
+  width: 80vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fad8df;
+  border-radius: 0 10px 12px 0;
+}
+@media (min-width: 769px) {
+  .product-container3{
+    width: 40vw;
+    border-radius: 15px;
+    align-self: unset;
+  }
+}
+
+.line-stool {
+  width: 50px;
+  height: 5px;
+  margin: 10px 0 10px 0;
+  background-color: #e95046;
+}
+
+
+.product-container4 {
+  width: 80vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  background-color: #e2d2c5;
+  border-radius: 15px 0 0 15px;
+}
+@media (min-width: 769px) {
+  .product-container4{
+    width: 40vw;
+    border-radius: 15px;
+    align-self: unset;
+  }
+}
+
+.product-img1 {
+  width: 200px;
+}
+
+.product-box2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-tables {
+  width: 5px;
+  height: 50px;
+  margin: 0 10px 0 10px;
+  background-color: #ff6e6e;
+}
